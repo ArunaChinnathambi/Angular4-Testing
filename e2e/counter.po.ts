@@ -6,7 +6,7 @@ export class CounterCompPage {
     }
     
       getNumber() {
-        return element(by.css('app-counter p')).getText();
+        return element(by.css('app-counter h1')).getText();
       }
     
       getIncrementButton() {
