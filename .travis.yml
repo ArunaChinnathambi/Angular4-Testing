@@ -19,5 +19,6 @@ install:
 script:
   - npm run ci
 after_script:
-  - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js  
   - codecov
+  - cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js  
+  
